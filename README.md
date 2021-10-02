@@ -7,10 +7,8 @@ The application allows you to store users.
 ## Technologies
 Project is created with:
 * https://getbootstrap.com/
-* javax.servlet-api
-* jstl
-* jbcrypt
-* mysql-connector-java(MySql)
+* JSP + JSTL
+* MySql
 * Tomcat
 
 	
