@@ -12,12 +12,12 @@
 </head>
 <body>
 <%@ include file="fragments/header.jsp" %>
-<div class="bg-dark text-secondary px-1 py-5 text-center" >
+<div class="bg-dark text-secondary px-1 py-5 text-center" style="border-bottom: aqua 1px solid" >
     <a href='<c:url value="/user/add"/>' type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Add New User</a>
 </div>
-<div class="bg-dark" style="overflow-y: scroll; overflow-x: hidden;  height: 550px; border-top: aqua 1px solid">
+<div class="bg-dark" style="overflow-y: scroll; overflow-x: hidden;  height: 550px;">
     <table class="table table-dark">
-        <tr>
+        <tr style="position: sticky; top: 0;">
             <th>Id</th>
             <th>User name</th>
             <th>Email</th>
