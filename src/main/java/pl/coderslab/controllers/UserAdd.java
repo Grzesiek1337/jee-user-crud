@@ -17,16 +17,12 @@ public class UserAdd extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("userName");
-        String email = request.getParameter("email");
-        String password = request.getParameter("password");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         User user = new User();
-        user.setUserName(name);
-        user.setEmail(email);
-        user.setPassword(password);
+        user.setUserName(request.getParameter("userName"));
+        user.setEmail(request.getParameter("email"));
+        user.setPassword(request.getParameter("password"));
         UserDao.create(user);
         response.sendRedirect(request.getContextPath() + "/user/list");
-
     }
 }

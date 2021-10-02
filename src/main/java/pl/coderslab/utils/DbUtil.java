@@ -9,17 +9,10 @@ import java.sql.SQLException;
 
 public class DbUtil {
 
-
     private static DataSource dataSource;
-
-
-
 
     public static Connection getConnection() throws SQLException {
         return getInstance().getConnection();   }
-
-
-
 
     private static DataSource getInstance() {
         if (dataSource == null) {

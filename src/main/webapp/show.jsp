@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<html lang="pl-PL">
+<html>
 <head>
     <meta charset="utf-8"/>
     <title>User Show</title>
@@ -11,11 +11,10 @@
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
-<%@ include file="fragments/header.jsp"%>
-<div class="bg-dark text-secondary px-1 py-1 text-center" >
-    <div class="py-5">
-        <a href='<c:url value="/user/list"/>' type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Return</a>
-    </div>
+<%@ include file="fragments/header.jsp" %>
+<div class="bg-dark text-secondary px-1 py-5 text-center">
+    <a href='<c:url value="/user/list"/>' type="button"
+       class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Return</a>
 </div>
 <div class="bg-dark text-center d-flex justify-content-center " style="height: 550px;border-top:aqua 1px solid">
     <table class="table table-dark mt-5">

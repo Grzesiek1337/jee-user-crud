@@ -12,30 +12,25 @@ import java.io.IOException;
 
 @WebServlet("/user/delete")
 public class UserDelete extends HttpServlet {
-    private static int index;
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String input = request.getParameter("id");
         try {
-            int id = Integer.parseInt(input);
-            index = id;
-            User user = UserDao.read(id);
+            User user = UserDao.read(Integer.parseInt(request.getParameter("id")));
             request.setAttribute("user", user);
         } catch (NumberFormatException e) {
             e.printStackTrace();
         }
-        getServletContext().getRequestDispatcher("/showDelete.jsp")
+        getServletContext().getRequestDispatcher("/delete.jsp")
                 .forward(request, response);
     }
+
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String decision = request.getParameter("decision");
-        if (decision.equals("Yes")) {
-            UserDao.delete(index);
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        if (request.getParameter("decision").equals("Yes")) {
+            UserDao.delete(Integer.parseInt(request.getParameter("id")));
             response.sendRedirect(request.getContextPath() + "/user/list");
         } else {
-            response.sendRedirect("/user/list");
+            response.sendRedirect(request.getContextPath() + "/user/list");
         }
-
     }
 }

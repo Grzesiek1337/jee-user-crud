@@ -9,7 +9,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e16da7d-bd42-4a34-9e0d-c21631544887" name="Default Changelist" comment="" />
+    <list default="true" id="5e16da7d-bd42-4a34-9e0d-c21631544887" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/utils/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/utils/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/utils/DbUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fragments/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fragments/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fragments/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/showDelete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controllers/UserShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/users/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/users/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/utils/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/utils/DbUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/controllers/UserShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/users/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/users/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/utils/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/WEB-INF/classes/pl/coderslab/utils/DbUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/fragments/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/fragments/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/fragments/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jee-user-crud-app/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jee-user-crud-app/showDelete.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +64,14 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/added_delete_user_controller" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -42,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ServletyJSPJSTL/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,6 +105,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.48" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.48" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -159,10 +219,37 @@
       <workItem from="1632973405950" duration="330000" />
       <workItem from="1633011897037" duration="16252000" />
       <workItem from="1633097098223" duration="16753000" />
+      <workItem from="1633115713245" duration="2770000" />
+      <workItem from="1633120901281" duration="200000" />
+      <workItem from="1633156118696" duration="18630000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1633116166757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633116166757</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
